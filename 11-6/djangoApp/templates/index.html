@@ -1,0 +1,17 @@
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>タイトル</th>
+      <th>URL</th>
+    </tr>
+    {% for page in pages %}
+    <tr>
+      <td></td>
+      <td>{{ page.title }}</td>
+      <td>{{ page.href }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+

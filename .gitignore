@@ -1,0 +1,6 @@
+.DS_Store
+celerybeat-schedule
+dump.rdb
+db.sqlite3
+migrations
+__pycache__
